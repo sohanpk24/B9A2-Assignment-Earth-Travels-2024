@@ -65,7 +65,7 @@ a.nav-menu-home {
 
 /* header-section */
 .container {
-    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     width: 1170px;
     height: 500px;
@@ -100,7 +100,7 @@ a.nav-menu-home {
 }
 
 .heading-input {
-    width: 800px;
+    width: 811px;
     height: 54px;
     margin: 20px auto;
     background-color: #c2b7b789;
@@ -112,6 +112,11 @@ a.nav-menu-home {
     margin-right: 8px;
     border-radius: 8px;
     border: 0;
+}
+
+button.primary-btn img {
+    width: 18px;
+    margin-bottom: -5px;
 }
 
 /* tour section */
@@ -441,6 +446,54 @@ span.earth-travels {
     padding: 30px;
 }
 
+.footer-container{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1300px;
+    height: 470px;
+    margin: 20px auto;
+}
+.footer-title{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.footer-earth {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 20px auto;
+}
+
+.footer-earth img {
+    width: 23px;
+    margin-right: 7px;
+}
+
+.footer-earth span {
+    color: #FF5400;
+}
+
+.footer-title p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px auto;
+}
+.fo0ter-icons {
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.fo0ter-icons i {
+    margin-bottom: 31px;
+    padding: 6px;
+}
 /* responsive-section */
 
 @media screen and (max-width: 600px) {
@@ -597,10 +650,11 @@ span.earth-travels {
     }
     .earth-travels{
         left: -130px;
-        top: 6552px;
+        top: 6392px;
         z-index: 1;
     }
-    }
+    
+     
 
     .input-newsletter input{
       width: 500px;
@@ -609,4 +663,10 @@ span.earth-travels {
 
     button.Subscribe-btn {
         width: 500px;
+    }  
+    .footer-container{
+        width: 500px;
+        margin: 10px auto;
+    }
+    
 }
